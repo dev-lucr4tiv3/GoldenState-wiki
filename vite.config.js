@@ -44,12 +44,12 @@ export default defineConfig({
           containerFooterHtml: '</div>'
         })
         
-        const callouts = ['info', 'warning', 'success', 'error'];
-        callouts.forEach(type => {
+        const calloutLabels = { info: 'Info', warning: 'Warnung', success: 'Erfolg', error: 'Fehler' };
+        Object.keys(calloutLabels).forEach(type => {
           md.use(container, type, {
             render: function (tokens, idx) {
               if (tokens[idx].nesting === 1) {
-                const title = tokens[idx].info.trim().slice(type.length).trim() || type.charAt(0).toUpperCase() + type.slice(1);
+                const title = tokens[idx].info.trim().slice(type.length).trim() || calloutLabels[type];
                 return '<div class="callout callout-' + type + '"><div class="callout-title">' + title + '</div><div class="callout-content">';
               } else {
                 return '</div></div>\n';
