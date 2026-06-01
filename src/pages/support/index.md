@@ -2,19 +2,22 @@
 title: Support
 ---
 
+<figure>
+  <img src="/wiki/banner-support.svg" alt="Support" />
+</figure>
+
 # Support
 
-Hier findest du alle Informationen rund um Hilfe, Moderation und Tickets.
+## Im Spiel
 
-:::warning Wichtig
-Bitte lies zuerst die Richtlinien, bevor du ein Ticket erstellst.
-:::
+Drücke `F5` um direkt ein Admin-Ticket zu erstellen. Für aktive Situationen und dringende Probleme.
 
-## Inhalte
+## Im Discord
 
-- [Tickets](/support/tickets)
-- [Moderation](/support/moderation)
+Für alles was nicht sofort gelöst werden muss: Discord-Ticket unter `#support-ticket`.
 
-## Kontakt
+- [Wie erstelle ich ein Ticket?](/support/tickets)
 
-Bei dringenden Problemen nutze bitte den offiziellen Discord-Supportkanal.
+## Selbstjustiz
+
+Regelbrüche anderer Spieler meldest du, du bestrafst sie nicht selbst. Ticket erstellen und abwarten.

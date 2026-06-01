@@ -33,7 +33,7 @@ onUnmounted(() => {
     <button
       v-if="isVisible"
       @click="scrollToTop"
-      class="fixed bottom-8 right-8 z-50 p-3 rounded-full bg-gold-300/20 hover:bg-gold-300/30 text-gold-200 border border-gold-300/30 backdrop-blur-sm transition-all duration-300 hover:scale-110 shadow-lg"
+      class="fixed bottom-8 right-8 z-50 p-3 rounded-full bg-gold-300/20 hover:bg-gold-300/30 text-gold-200 border border-gold-300/30 backdrop- transition-all duration-300 hover:scale-110 shadow-lg"
       aria-label="Nach oben scrollen"
     >
       <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

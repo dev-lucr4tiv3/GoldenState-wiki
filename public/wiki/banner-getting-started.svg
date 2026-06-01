@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" fill="none">
+  <rect width="1200" height="400" fill="#0d0d0d"/>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#CF9F3E" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0d0d0d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d0d0d" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#0d0d0d" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0d0d0d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="850" cy="200" rx="380" ry="280" fill="url(#glow)"/>
+  <!-- City grid / map lines -->
+  <g opacity="0.12" stroke="#CF9F3E" stroke-width="1">
+    <line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="700" y1="0" x2="700" y2="400"/>
+    <line x1="800" y1="0" x2="800" y2="400"/>
+    <line x1="900" y1="0" x2="900" y2="400"/>
+    <line x1="1000" y1="0" x2="1000" y2="400"/>
+    <line x1="1100" y1="0" x2="1100" y2="400"/>
+    <line x1="600" y1="100" x2="1200" y2="100"/>
+    <line x1="600" y1="200" x2="1200" y2="200"/>
+    <line x1="600" y1="300" x2="1200" y2="300"/>
+  </g>
+  <!-- Rocket icon -->
+  <g transform="translate(880, 90)" opacity="0.9">
+    <path d="M40 180 C40 180 20 160 20 100 C20 40 60 0 60 0 C60 0 100 40 100 100 C100 160 80 180 80 180 Z" stroke="#CF9F3E" stroke-width="2.5" fill="none"/>
+    <circle cx="60" cy="95" r="14" stroke="#CF9F3E" stroke-width="2.5" fill="none"/>
+    <path d="M38 140 L10 168 L10 190 L32 190 L40 168" stroke="#CF9F3E" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M82 140 L110 168 L110 190 L88 190 L80 168" stroke="#CF9F3E" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <line x1="60" y1="180" x2="60" y2="210" stroke="#CF9F3E" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <rect x="0" y="0" width="1200" height="400" fill="url(#fade)"/>
+  <text x="80" y="170" font-family="system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="6" fill="#CF9F3E" opacity="0.7">ERSTE SCHRITTE</text>
+  <text x="80" y="230" font-family="system-ui, sans-serif" font-size="38" font-weight="700" fill="#F5F5F5">Dein Einstieg in</text>
+  <text x="80" y="278" font-family="system-ui, sans-serif" font-size="38" font-weight="700" fill="#F5F5F5">Los Santos.</text>
+</svg>

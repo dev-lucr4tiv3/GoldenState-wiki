@@ -21,9 +21,10 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="fixed top-0 left-0 right-0 h-1 bg-white/5 z-[100]">
-    <div 
-      class="h-full bg-gradient-to-r from-gold-300 to-gold-100 transition-all duration-150 ease-out"
+  <div class="fixed top-0 left-0 right-0 h-px bg-white/[0.04] z-[100]">
+    <div
+      class="h-full transition-all duration-150 ease-out"
+      style="background: linear-gradient(90deg, #a06f22, #cf9f3e, #dcb45a)"
       :style="{ width: `${progress}%` }"
     />
   </div>

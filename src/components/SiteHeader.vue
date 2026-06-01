@@ -4,6 +4,7 @@ import { RouterLink, useRoute } from 'vue-router'
 import logo from '@/assets/logo-no-text.png'
 import { useWikiNavigation } from '@/composables/useWikiNavigation'
 import { useSearch } from '@/composables/useSearch'
+import { Search, Menu, X, FileText } from 'lucide-vue-next'
 
 const route = useRoute()
 const { navTree } = useWikiNavigation()
@@ -27,29 +28,50 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 <template>
   <header
     class="fixed inset-x-0 top-0 z-50 transition-all duration-300"
-    :class="scrolled ? 'border-b border-white/10 bg-ink/80 backdrop-blur-xl' : 'border-b border-transparent'"
+    :class="scrolled
+      ? 'border-b border-white/8 bg-ink/85 backdrop-blur-xl shadow-lg shadow-black/20'
+      : 'border-b border-transparent'"
   >
-    <div class="mx-auto flex h-20 max-w-screen-2xl items-center justify-between px-5 sm:px-8">
-      <RouterLink to="/" class="flex items-center gap-3 group">
-        <img :src="logo" alt="GoldenState" class="h-12 w-12 object-contain transition-transform duration-500 group-hover:scale-105" />
-        <span class="font-display text-lg tracking-wide text-gold-100 sm:block">GoldenState Wiki</span>
+    <!-- Gold accent line when scrolled -->
+    <div
+      class="absolute bottom-0 left-0 right-0 h-px transition-opacity duration-500"
+      :class="scrolled ? 'opacity-100' : 'opacity-0'"
+      style="background: linear-gradient(90deg, transparent 0%, rgba(207,159,62,0.4) 30%, rgba(207,159,62,0.4) 70%, transparent 100%)"
+    />
+
+    <div class="mx-auto flex h-16 max-w-screen-2xl items-center justify-between px-5 sm:px-8">
+      <!-- Logo -->
+      <RouterLink to="/" class="group flex items-center gap-3">
+        <img
+          :src="logo"
+          alt="GoldenState"
+          class="h-9 w-9 object-contain transition-all duration-500 group-hover:scale-105 drop-shadow-[0_0_8px_rgba(207,159,62,0.3)]"
+        />
+        <div class="flex flex-col leading-none">
+          <span class="font-display text-sm tracking-wide text-gold-200">GoldenState</span>
+          <span class="text-[10px] uppercase tracking-widest text-zinc-600">Wiki</span>
+        </div>
       </RouterLink>
 
+      <!-- Right actions -->
       <div class="flex items-center gap-3">
-        <a href="https://golden-state.tech" class="btn-ghost hidden px-5 py-2.5 sm:inline-flex">
-          Zurück zur Website
+        <a
+          href="https://golden-state.tech"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-ghost hidden px-4 py-2 text-xs sm:inline-flex"
+        >
+          Zur Website
         </a>
 
-        <!-- Mobile Menu Toggle -->
+        <!-- Mobile menu toggle -->
         <button
-          class="grid h-10 w-10 place-items-center rounded-full border border-white/15 text-zinc-200 lg:hidden"
+          class="grid h-8 w-8 place-items-center rounded-lg border border-white/[0.08] text-zinc-500 transition-colors hover:border-white/15 hover:text-zinc-300 lg:hidden"
           @click="menuOpen = !menuOpen"
-          aria-label="Menue"
+          aria-label="Menü"
         >
-          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
-            <path v-if="!menuOpen" d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round" />
-            <path v-else d="M6 6l12 12M18 6L6 18" stroke-linecap="round" />
-          </svg>
+          <Menu v-if="!menuOpen" class="h-4 w-4" :stroke-width="1.75" />
+          <X v-else class="h-4 w-4" :stroke-width="1.75" />
         </button>
       </div>
     </div>
@@ -61,69 +83,69 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
       leave-active-class="transition duration-150 ease-in"
       leave-to-class="opacity-0 -translate-y-2"
     >
-      <div v-if="menuOpen" class="border-t border-white/10 bg-ink/95 backdrop-blur-xl lg:hidden max-h-[80vh] overflow-y-auto">
-        <nav class="mx-auto flex flex-col px-5 py-6 space-y-6">
+      <div
+        v-if="menuOpen"
+        class="border-t border-white/8 bg-ink/95 backdrop-blur-xl lg:hidden max-h-[80vh] overflow-y-auto"
+      >
+        <nav class="mx-auto flex flex-col px-5 py-5 space-y-5">
           <!-- Mobile Search -->
           <div class="relative">
-            <div class="relative">
-              <svg class="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-zinc-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="11" cy="11" r="8"/>
-                <path d="m21 21-4.35-4.35" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              <input 
-                type="text" 
-                v-model="searchQuery"
-                placeholder="Wiki durchsuchen..." 
-                class="w-full bg-ink-soft border border-white/10 rounded-lg pl-10 pr-4 py-3 text-base text-zinc-200 focus:outline-none focus:border-gold-300 transition-colors"
-              />
-            </div>
-            <!-- Mobile Search Results -->
-            <div v-if="searchQuery && searchResults.length > 0" class="absolute w-full mt-2 bg-ink border border-white/10 rounded-lg shadow-xl max-h-64 overflow-y-auto z-50">
-              <ul class="p-2 space-y-1">
+            <Search class="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-zinc-600 pointer-events-none" :stroke-width="2" />
+            <input
+              type="text"
+              v-model="searchQuery"
+              placeholder="Wiki durchsuchen…"
+              class="w-full rounded-lg border border-white/[0.07] bg-white/[0.03] py-2.5 pl-9 pr-4 text-sm text-zinc-300 placeholder-zinc-600 focus:border-white/15 focus:outline-none"
+            />
+            <div
+              v-if="searchQuery && searchResults.length > 0"
+              class="absolute left-0 right-0 top-full mt-2 z-50 rounded-xl border border-white/10 bg-ink-card shadow-xl max-h-56 overflow-y-auto"
+            >
+              <ul class="p-1.5 space-y-0.5">
                 <li v-for="result in searchResults" :key="result.path">
-                  <RouterLink 
-                    :to="result.path" 
-                    class="block px-3 py-2 text-sm rounded hover:bg-white/5 text-zinc-300 hover:text-gold-200"
+                  <RouterLink
+                    :to="result.path"
+                    class="block rounded-lg px-3 py-2 text-sm text-zinc-300 hover:bg-white/5 hover:text-zinc-100"
                     @click="searchQuery = ''; menuOpen = false"
                   >
-                    <div class="font-medium truncate text-zinc-200">{{ result.title }}</div>
-                    <div class="text-xs text-zinc-500 mt-1 line-clamp-2">{{ result.snippet }}</div>
+                    <div class="font-medium truncate text-xs text-zinc-200">{{ result.title }}</div>
+                    <div class="text-xs text-zinc-600 mt-0.5 line-clamp-2">{{ result.snippet }}</div>
                   </RouterLink>
                 </li>
               </ul>
             </div>
-            <div v-else v-show="searchQuery" class="absolute w-full mt-2 bg-ink border border-white/10 rounded-lg shadow-xl p-4 text-sm text-zinc-500 text-center z-50">
+            <div v-else v-show="searchQuery" class="absolute left-0 right-0 top-full mt-2 z-50 rounded-xl border border-white/10 bg-ink-card p-3 text-center text-xs text-zinc-600 shadow-xl">
               Keine Ergebnisse
             </div>
           </div>
 
+          <!-- Nav items -->
           <div v-for="(item, index) in navTree" :key="index">
-            <RouterLink 
-              v-if="!item.children" 
+            <RouterLink
+              v-if="!item.children"
               :to="item.path"
-              class="block px-3 py-2 text-lg rounded hover:bg-white/5"
-              active-class="text-gold-100 font-medium bg-white/5"
+              class="block rounded-lg px-3 py-2 text-sm text-zinc-400 hover:bg-white/5 hover:text-zinc-200"
+              active-class="text-gold-200 bg-gold-400/10 font-medium"
               @click="menuOpen = false"
             >
               {{ item.title }}
             </RouterLink>
-            
             <div v-else>
               <RouterLink
                 :to="item.path"
-                class="mb-2 block px-3 text-sm font-semibold uppercase"
-                :class="isSectionActive(item.path) ? 'text-gold-100' : 'text-gold-300/80 hover:text-gold-200'"
+                class="mb-2 block px-3 text-[10px] font-semibold uppercase tracking-widest transition-colors"
+                :class="isSectionActive(item.path) ? 'text-gold-300' : 'text-zinc-600'"
                 @click="menuOpen = false"
               >
                 {{ item.title }}
               </RouterLink>
-              <div class="space-y-1 pl-4 border-l border-white/10 ml-3">
-                <RouterLink 
-                  v-for="child in item.children" 
+              <div class="space-y-0.5 pl-3 border-l border-white/8 ml-3">
+                <RouterLink
+                  v-for="child in item.children"
                   :key="child.path"
                   :to="child.path"
-                  class="block px-3 py-2 text-base rounded hover:bg-white/5 text-zinc-300"
-                  active-class="text-gold-100 font-medium bg-white/5"
+                  class="block rounded-lg px-3 py-2 text-sm text-zinc-500 hover:bg-white/5 hover:text-zinc-200"
+                  active-class="text-gold-200 bg-gold-400/10 font-medium"
                   @click="menuOpen = false"
                 >
                   {{ child.title }}
@@ -131,8 +153,12 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
               </div>
             </div>
           </div>
-          
-          <a href="https://golden-state.tech" class="mt-4 btn-ghost justify-center" @click="menuOpen = false">
+
+          <a
+            href="https://golden-state.tech"
+            class="btn-ghost justify-center text-sm"
+            @click="menuOpen = false"
+          >
             Zur Website
           </a>
         </nav>

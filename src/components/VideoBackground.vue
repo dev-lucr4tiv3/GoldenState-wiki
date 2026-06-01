@@ -8,7 +8,7 @@ const base = import.meta.env.BASE_URL
 <template>
   <div class="fixed inset-0 -z-10 overflow-hidden bg-ink">
     <video
-      class="h-full w-full object-cover opacity-70 blur-sm brightness-75"
+      class="h-full w-full object-cover opacity-70  brightness-75"
       :poster="base + 'media/poster.jpg'"
       autoplay
       muted
