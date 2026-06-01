@@ -4,7 +4,7 @@ title: Beitreten
 
 # Beitreten
 
-GoldenState hat eine Whitelist. Du kannst nicht einfach einloggen — du musst zuerst ein Gespräch führen.
+GoldenState hat eine Whitelist. Du kannst nicht einfach einloggen  du musst zuerst ein Gespräch führen.
 
 ## Schritt 1: Ticket öffnen
 
@@ -23,7 +23,7 @@ Ein **Einreisebeamter** erwartet dich dort.
 
 Das Gespräch läuft vollständig im Roleplay ab. Dein Charakter stellt sich vor, beantwortet Fragen zu Herkunft und Ziel, und gibt seine Papiere ab.
 
-Das Gespräch dauert 15–20 Minuten. Es ist kein Test — es geht darum, deinen Charakter kennen zu lernen.
+Das Gespräch dauert 15–20 Minuten. Es ist kein Test  es geht darum, deinen Charakter kennen zu lernen.
 
 ## Schritt 3: Freigabe
 

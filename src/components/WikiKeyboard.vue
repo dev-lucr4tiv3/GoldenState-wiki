@@ -94,7 +94,7 @@ function scrollToSection(section) {
   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
-// Tailwind class maps — full strings required for JIT scanner
+// Tailwind class maps  full strings required for JIT scanner
 const keyColors = {
   gta:    'text-cyan-300 border-cyan-400/30 bg-cyan-400/10 cursor-pointer',
   script: 'text-amber-300 border-amber-400/30 bg-amber-400/10 cursor-pointer',
@@ -190,7 +190,7 @@ function typeLabel(t) {
           </div>
         </template>
         <div v-else class="w-full text-center text-xs text-zinc-700 italic">
-          Zeiger über eine markierte Taste für Details &nbsp;·&nbsp; Klick springt zur Erklärung
+          Zeiger über eine markierte Taste für Details &nbsp;&nbsp; Klick springt zur Erklärung
         </div>
       </div>
     </div>

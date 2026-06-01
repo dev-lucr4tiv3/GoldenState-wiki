@@ -134,7 +134,7 @@ watch(searchQuery, () => { selectedIndex.value = -1 })
 </script>
 
 <template>
-  <aside class="hidden lg:flex w-56 flex-shrink-0 flex-col sticky top-20 h-[calc(100vh-5rem)] my-6 ml-6 z-40">
+  <aside class="hidden lg:flex w-64 flex-shrink-0 flex-col sticky top-20 h-[calc(100vh-5rem)] my-6 ml-6 z-40">
 
     <!-- Search -->
     <div class="mb-4 relative" ref="searchMenu">

@@ -57,8 +57,6 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
       <div class="flex items-center gap-3">
         <a
           href="https://golden-state.tech"
-          target="_blank"
-          rel="noopener noreferrer"
           class="btn-ghost hidden px-4 py-2 text-xs sm:inline-flex"
         >
           Zur Website

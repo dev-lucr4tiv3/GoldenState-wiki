@@ -10,10 +10,10 @@ Du bist drin. Was jetzt?
 
 Mach diese vier Dinge, in dieser Reihenfolge:
 
-1. **Führerschein** — DVLA-Büro (Kartenmarkierung: Ausweis-Symbol). Theorie + kurze Fahrprüfung. Kostet ~$500.
-2. **Bankkonto** — Bank in der Innenstadt. Kostenlos. Überweise dein Startgeld sofort.
-3. **Handy** — `F1`. Wenn keins im Inventar, kauf eines im Electronics-Shop.
-4. **Job** — Arbeitsamt (Aktentaschen-Symbol). Taxifahrer oder Trucker als Einstieg.
+1. **Führerschein**  DVLA-Büro (Kartenmarkierung: Ausweis-Symbol). Theorie + kurze Fahrprüfung. Kostet ~$500.
+2. **Bankkonto**  Bank in der Innenstadt. Kostenlos. Überweise dein Startgeld sofort.
+3. **Handy**  `F1`. Wenn keins im Inventar, kauf eines im Electronics-Shop.
+4. **Job**  Arbeitsamt (Aktentaschen-Symbol). Taxifahrer oder Trucker als Einstieg.
 
 ## Wichtige Tasten
 
@@ -27,6 +27,6 @@ Mach diese vier Dinge, in dieser Reihenfolge:
 
 ## Verhalte dich wie dein Charakter
 
-Du bist nicht du — du bist dein Charakter. Sprich in der ersten Person, reagiere auf die Umgebung, stelle dich vor wenn du jemanden triffst.
+Du bist nicht du  du bist dein Charakter. Sprich in der ersten Person, reagiere auf die Umgebung, stelle dich vor wenn du jemanden triffst.
 
 Wenn etwas nicht klappt oder du nicht weiterkommst: `F5` für ein Admin-Ticket.

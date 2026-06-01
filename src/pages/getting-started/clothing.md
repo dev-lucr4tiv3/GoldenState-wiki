@@ -28,8 +28,10 @@ Bis zu 5 Outfits speicherbar. Im Kleidungsmenü unten auf "Outfit speichern". Na
 
 **Tattoo-Studio**: Dauerhafte Körpermodifikationen. Gut überlegen.
 
-## Kleidungs als Items
+## Kleidung als Items
 
-Wir bei GoldenState haben ein System das du jedes Kleidungsstück als Item kaufst und dieses dann einfach anderen leuten weitergeben kannst,
+Jedes Kleidungsstück in GoldenState ist ein echtes Item im Inventar. Das bedeutet:
 
-genau dadürch kannst du dich immer versatile überall umziehen, und auch deine dienstkleidung in einer sekunde umändern!
+- Du kannst Kleidung kaufen, tragen und an andere weitergeben
+- Umziehen geht überall — du brauchst keinen Laden
+- Dienstkleidung (z.B. LSPD-Uniform) kann in Sekunden angelegt werden, solange sie im Inventar liegt

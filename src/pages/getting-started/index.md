@@ -14,11 +14,11 @@ Dieses Wiki führt dich Schritt für Schritt durch alles, was du wissen musst.
 
 ## Dein Weg rein
 
-1. **Vorbereiten** — was du installieren und wissen musst
-2. **Beitreten** — Ticket öffnen und Einreisegespräch am Flughafen
-3. **Erste Schritte** — dein erster Tag in Los Santos
-4. **Roleplay** — wie das Spiel wirklich funktioniert
-5. **Tasten** — alle wichtigen Keybinds
-6. **Inventar, Kleidung, Voice** — die letzten Details
+1. **Vorbereiten**  was du installieren und wissen musst
+2. **Beitreten**  Ticket öffnen und Einreisegespräch am Flughafen
+3. **Erste Schritte**  dein erster Tag in Los Santos
+4. **Roleplay**  wie das Spiel wirklich funktioniert
+5. **Tasten**  alle wichtigen Keybinds
+6. **Inventar, Kleidung, Voice**  die letzten Details
 
 Fang unten an mit dem ersten Kapitel.

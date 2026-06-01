@@ -4,7 +4,7 @@ title: Roleplay-Guide
 
 # Roleplay-Guide
 
-Roleplay bedeutet: Du bist dein Charakter. Kein Spiel — eine Geschichte.
+Roleplay bedeutet: Du bist dein Charakter. Kein Spiel  eine Geschichte.
 
 ## Die drei Grundregeln
 
@@ -12,7 +12,7 @@ Roleplay bedeutet: Du bist dein Charakter. Kein Spiel — eine Geschichte.
 Was du in Discord, im Stream oder außerhalb hörst, existiert für deinen Charakter nicht. Das heißt Metagaming-Vermeidung.
 
 **Du reagierst realistisch.**
-Eine Waffe auf dich gerichtet? Du kooperierst. Dein Charakter will leben. Nicht sterben bedeutet nicht Respawn — es bedeutet Angst.
+Eine Waffe auf dich gerichtet? Du kooperierst. Dein Charakter will leben. Nicht sterben bedeutet nicht Respawn  es bedeutet Angst.
 
 **Du bleibst dabei.**
 Situation aktiv? Du loggst nicht aus. Nicht weil es eine Regel ist, sondern weil andere Spieler auf dich angewiesen sind.
@@ -25,7 +25,7 @@ Diese zwei Befehle sind das Herzstück guten Roleplays.
 Beschreibt was dein Charakter tut. Andere sehen es.
 
 `/do Die Tür ist von innen verriegelt.`
-Beschreibt Zustände in der Welt. Nicht deine Aktion — die Umgebung.
+Beschreibt Zustände in der Welt. Nicht deine Aktion  die Umgebung.
 
 ## Was nie okay ist
 
