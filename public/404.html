@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>GoldenState Wiki</title>
+  <script>
+    // Save the intended path and redirect to the SPA root.
+    // Vue Router will restore it from sessionStorage before mounting.
+    sessionStorage.setItem(
+      'spa:redirect',
+      window.location.pathname + window.location.search + window.location.hash
+    )
+    window.location.replace('/')
+  </script>
+</head>
+<body></body>
+</html>
