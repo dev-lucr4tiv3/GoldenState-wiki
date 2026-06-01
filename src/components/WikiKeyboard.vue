@@ -144,10 +144,10 @@ function typeLabel(t) {
     <!-- Keyboard -->
     <div class="overflow-x-auto rounded-2xl">
       <div
-        class="min-w-[700px] bg-zinc-950/90 border border-white/[0.08] rounded-2xl p-3.5 pb-3 flex flex-col gap-[5px] select-none"
+        class="w-full bg-zinc-950/90 border border-white/[0.08] rounded-2xl p-5 pb-5 flex flex-col gap-2 select-none"
         style="box-shadow:0 4px 32px rgba(0,0,0,0.45),inset 0 1px 0 rgba(255,255,255,0.04)"
       >
-        <div v-for="(row, ri) in rows" :key="ri" class="flex gap-[5px]">
+        <div v-for="(row, ri) in rows" :key="ri" class="flex gap-2">
           <template v-for="(cell, ci) in row" :key="ci">
             <!-- Spacer between fn-key groups -->
             <div v-if="cell.spacer" class="basis-0 shrink-0" :style="{ flexGrow: cell.f }" />
@@ -155,20 +155,20 @@ function typeLabel(t) {
             <!-- Key -->
             <div
               v-else
-              class="relative flex flex-col items-center justify-center basis-0 shrink-0 border rounded-[7px] text-[10px] font-semibold text-center overflow-hidden transition-[transform,filter] duration-75"
+              class="relative flex flex-col items-center justify-center basis-0 shrink-0 border rounded-[8px] text-sm font-semibold text-center overflow-hidden transition-[transform,filter] duration-150"
               :class="[
-                cell.fnRow ? 'h-9' : 'h-11',
+                cell.isFnRow ? 'h-12' : 'h-14',
                 cell.kb ? keyColors[cell.type] : keyColors.off,
-                hovered === cell.k ? '-translate-y-px brightness-125' : '',
+                hovered === cell.k ? '-translate-y-px brightness-105' : '',
               ]"
-              :style="{ flexGrow: cell.f }"
+              :style="{ flexGrow: cell.f, padding: '6px 6px' }"
               @mouseenter="hovered = cell.k"
               @mouseleave="hovered = null"
               @click="cell.kb && scrollToSection(cell.kb.section)"
             >
               <span v-if="cell.rebindable" class="absolute top-[3px] right-[3px] w-[5px] h-[5px] rounded-full bg-emerald-400" />
-              <span class="leading-none">{{ cell.cap }}</span>
-              <span v-if="cell.short" class="text-[7px] mt-[2px] leading-none opacity-70 whitespace-nowrap overflow-hidden max-w-full px-[2px]">{{ cell.short }}</span>
+              <span class="leading-tight">{{ cell.cap }}</span>
+              <span v-if="cell.short" class="text-xs mt-1 leading-tight opacity-80 whitespace-nowrap overflow-hidden max-w-full px-[2px]">{{ cell.short }}</span>
             </div>
           </template>
         </div>

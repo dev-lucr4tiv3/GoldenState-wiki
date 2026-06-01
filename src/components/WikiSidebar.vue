@@ -33,6 +33,7 @@ const { searchQuery, searchResults } = useSearch()
 const searchMenu = ref(null)
 const searchInput = ref(null)
 const selectedIndex = ref(-1)
+const SEARCH_LIST_ID = 'search-results-listbox'
 
 // ─── Icon maps ────────────────────────────────────────────────────────────
 const sectionIconMap = {
@@ -89,6 +90,10 @@ function isCollapsed(slug) {
   return !expanded.has(slug)
 }
 
+function isExpanded(slug) {
+  return expanded.has(slug)
+}
+
 // Auto-expand the section of the active route
 watch(() => route.path, (path) => {
   const slug = path.split('/').filter(Boolean)[0]
@@ -134,18 +139,24 @@ watch(searchQuery, () => { selectedIndex.value = -1 })
 </script>
 
 <template>
-  <aside class="hidden lg:flex w-64 flex-shrink-0 flex-col sticky top-20 h-[calc(100vh-5rem)] my-6 ml-6 z-40">
+  <aside class="hidden lg:flex w-72 xl:w-80 min-w-[18rem] flex-shrink-0 flex-col sticky top-20 h-[calc(100vh-5rem)] my-6 ml-6 z-40">
 
     <!-- Search -->
     <div class="mb-4 relative" ref="searchMenu">
       <div class="relative">
-        <Search class="absolute left-2.5 top-1/2 -translate-y-1/2 h-3 w-3 text-zinc-600 pointer-events-none" :stroke-width="2" />
+        <Search class="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-zinc-600 pointer-events-none" :stroke-width="2" />
+        <label for="sidebar-search" class="sr-only">Suche</label>
         <input
+          id="sidebar-search"
           ref="searchInput"
           type="text"
+          role="combobox"
+          :aria-expanded="!!searchQuery"
+          :aria-controls="SEARCH_LIST_ID"
+          :aria-activedescendant="selectedIndex >= 0 ? `search-result-${selectedIndex}` : null"
           v-model="searchQuery"
           placeholder="Suchen… ⌘K"
-          class="w-full rounded-lg border border-white/[0.07] bg-white/[0.03] py-2 pl-8 pr-3 text-xs text-zinc-300 placeholder-zinc-700 transition-colors focus:border-white/15 focus:outline-none focus:bg-white/[0.05]"
+          class="w-full rounded-lg border border-white/[0.07] bg-white/[0.03] py-2 pl-10 pr-3 text-sm text-zinc-300 placeholder-zinc-700 transition-colors focus:border-white/15 focus:outline-none focus:bg-white/[0.05]"
         />
       </div>
 
@@ -153,16 +164,20 @@ watch(searchQuery, () => { selectedIndex.value = -1 })
         v-if="searchQuery && searchResults.length > 0"
         class="absolute left-0 right-0 top-full mt-1.5 z-50 rounded-xl border border-white/[0.08] bg-zinc-950/95 shadow-2xl shadow-black/60 backdrop-blur-xl max-h-72 overflow-y-auto"
       >
-        <ul class="p-1 space-y-px">
+        <ul :id="SEARCH_LIST_ID" role="listbox" aria-label="Suchergebnisse" class="p-1 space-y-px">
           <li v-for="(result, index) in searchResults" :key="result.path">
             <RouterLink
               :to="result.path"
-              class="block rounded-lg px-3 py-2 transition-colors"
-              :class="index === selectedIndex ? 'bg-white/8 text-zinc-100' : 'text-zinc-400 hover:bg-white/[0.04] hover:text-zinc-200'"
+              role="option"
+              :id="`search-result-${index}`"
+              :aria-selected="index === selectedIndex"
+              tabindex="0"
+              class="block rounded-lg px-3 py-2 transition-colors focus:outline-none"
+              :class="index === selectedIndex ? 'bg-white/8 text-zinc-100 ring-1 ring-white/10' : 'text-zinc-400 hover:bg-white/[0.04] hover:text-zinc-200'"
               @click="searchQuery = ''"
             >
-              <div class="truncate font-medium text-xs">{{ result.title }}</div>
-              <div class="mt-0.5 line-clamp-1 text-[10px] text-zinc-600">{{ result.snippet }}</div>
+              <div class="truncate font-medium text-sm">{{ result.title }}</div>
+              <div class="mt-0.5 line-clamp-1 text-[11px] text-zinc-600">{{ result.snippet }}</div>
             </RouterLink>
           </li>
         </ul>
@@ -183,7 +198,7 @@ watch(searchQuery, () => { selectedIndex.value = -1 })
         <RouterLink
           v-if="!item.children"
           :to="item.path"
-          class="flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-xs transition-all duration-100"
+          class="flex items-center gap-2 rounded-lg px-3 py-2 text-sm transition-all duration-100"
           :class="isActive(item.path)
             ? 'bg-white/[0.07] text-zinc-100 font-medium'
             : 'text-zinc-500 hover:text-zinc-300 hover:bg-white/[0.04]'"
@@ -201,7 +216,7 @@ watch(searchQuery, () => { selectedIndex.value = -1 })
           >
             <RouterLink
               :to="item.path"
-              class="flex items-center gap-2 flex-1 px-2.5 py-1.5 text-xs font-medium rounded-lg transition-colors"
+              class="flex items-center gap-2 flex-1 px-3 py-2 text-sm font-medium rounded-lg transition-colors"
               :class="isSectionActive(item.path) ? 'hover:text-zinc-100' : 'hover:text-zinc-400'"
             >
               <component
@@ -216,6 +231,8 @@ watch(searchQuery, () => { selectedIndex.value = -1 })
               :class="isSectionActive(item.path) ? 'text-zinc-500 hover:text-zinc-300' : 'text-zinc-700 hover:text-zinc-500'"
               @click.stop="toggle(item.slug)"
               :title="isCollapsed(item.slug) ? 'Aufklappen' : 'Zuklappen'"
+              :aria-expanded="isExpanded(item.slug)"
+              :aria-controls="`section-${item.slug}`"
             >
               <ChevronRight
                 class="h-3 w-3 transition-transform duration-200"
@@ -229,13 +246,15 @@ watch(searchQuery, () => { selectedIndex.value = -1 })
           <Transition name="section-slide">
             <div
               v-show="!isCollapsed(item.slug)"
+              :id="`section-${item.slug}`"
+              :aria-hidden="isCollapsed(item.slug)"
               class="ml-[1.25rem] pl-3 border-l border-white/[0.06] space-y-px pb-1"
             >
               <RouterLink
                 v-for="child in item.children"
                 :key="child.path"
                 :to="child.path"
-                class="flex items-center gap-2 rounded-lg px-2 py-1.5 text-xs transition-all duration-100"
+                class="flex items-center gap-2 rounded-lg px-3 py-2 text-sm transition-all duration-100"
                 :class="isActive(child.path)
                   ? 'bg-white/[0.07] text-zinc-100 font-medium'
                   : 'text-zinc-600 hover:text-zinc-300 hover:bg-white/[0.04]'"
