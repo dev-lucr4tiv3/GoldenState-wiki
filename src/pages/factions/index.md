@@ -3,28 +3,58 @@ title: Fraktionen
 ---
 
 <figure>
-  <img src="/wiki/banner-factions.svg" alt="Fraktionen" />
+  <img src="/wiki/banner-factions.svg" alt="Fraktionen von GoldenState" />
 </figure>
 
-# Fraktionen
+# 🏙️ Fraktionen
 
-GoldenState hat staatliche Fraktionen und kriminelle Organisationen. Mitgliedschaft ist kein Formular — sie entsteht im Roleplay.
+In **GoldenState** bilden Fraktionen das Rückgrat der Stadt. Sie steuern Ordnung, Chaos und alles dazwischen.
 
-## Staatliche Fraktionen
+Es gibt staatliche Institutionen und kriminelle Organisationen, aber kein klassisches "Bewerbungs-Menü". Alles entsteht organisch im Roleplay.
 
-- [LSPD](/factions/lspd) — Polizei von Los Santos
-- [EMS](/factions/ems) — Rettungsdienst
+---
 
-## Kriminelle Fraktionen
+## 🛡️ Staatliche Fraktionen
 
-Informationen zu aktiven Gruppen findest du im Discord unter `#fraktions-infos`. Sie werden nicht öffentlich dokumentiert.
+Staatliche Fraktionen sorgen für Sicherheit, medizinische Versorgung und strukturiertes Stadtleben.
 
-## Wie man Mitglied wird
+- 🚓 [LSPD](/factions/lspd) - Law Enforcement in Los Santos
+- 🚑 [EMS](/factions/ems) - Medizinische Notfallversorgung
 
-Du wirst nicht einfach aufgenommen. Du lernst Mitglieder im Roleplay kennen, verdienst dir Vertrauen, und wirst von ihnen rekrutiert.
+Diese Organisationen arbeiten nach klaren Strukturen, Hierarchien und internen Richtlinien.
 
-Formale Bewerbungen über das Discord-Ticket, aber nur nachdem du bereits Kontakte geknüpft hast.
+---
 
-**Grundvoraussetzungen:**
-- 10 Stunden Spielzeit in Los Santos
-- Keine offenen Sanktionen
+## 🔥 Kriminelle Fraktionen
+
+Kriminelle Organisationen sind bewusst nicht öffentlich dokumentiert.
+
+Die Welt entwickelt sich dynamisch, nicht statisch.
+
+---
+
+## 🧭 Wie man Teil einer Fraktion wird
+
+In GoldenState wirst du nicht "angenommen" wie in einem Formularsystem.
+
+Fraktionen entstehen durch Interaktion, Vertrauen und Roleplay-Entwicklung.
+
+### Ablauf im Roleplay:
+
+- Du triffst Mitglieder im aktiven Spielgeschehen
+- Du baust Beziehungen und Vertrauen auf
+- Du wirst IC in Strukturen eingebunden oder rekrutiert
+
+---
+
+## 📌 Grundvoraussetzungen
+
+- Mindestens **10 Stunden Spielzeit** in Los Santos
+- Keine aktiven Sanktionen oder schweren Regelverstöße
+- Grundverständnis für Roleplay und Charakterentwicklung
+
+---
+
+:::info
+Fraktionen sind kein Menüpunkt. Sie sind ein Ergebnis deiner Entscheidungen im Spiel.
+:::

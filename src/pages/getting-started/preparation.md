@@ -2,28 +2,51 @@
 title: Vorbereitung
 ---
 
-# Vorbereitung
+# 🧰 Vorbereitung
 
-Bevor du den Antrag stellst, brauchst du drei Dinge.
+Bevor du die Stadt betrittst, solltest du ein paar grundlegende Dinge vorbereitet haben. Das sorgt dafür, dass dein Einstieg reibungslos funktioniert.
 
-## Was du brauchst
+---
 
-**GTA V**  Steam, Epic Games oder Rockstar. Muss mindestens einmal gestartet worden sein.
+## 💻 Was du benötigst
 
-**FiveM**  kostenlos auf [fivem.net](https://fivem.net). Einfach installieren, GTA V wird automatisch erkannt.
+### 🎮 GTA V
+- Über Steam, Epic Games oder Rockstar Launcher
+- Muss mindestens einmal gestartet worden sein
 
-**TeamSpeak 3**  GoldenState nutzt YaCa für Proximity-Voice. Die Einrichtung kommt später, aber lade TS3 schon jetzt herunter. Kein TS5.
+### 🌐 FiveM
+- Kostenlos erhältlich unter https://fivem.net
+- Installation erkennt GTA V automatisch
 
-## Deinen Charakter
+### 🎧 TeamSpeak 3
+GoldenState nutzt **YaCa Proximity Voice** über TeamSpeak 3.
 
-Du brauchst noch keinen ausgearbeiteten Lebenslauf. Aber überlege dir:
+- Bitte installiere **TeamSpeak 3**
+- Kein TeamSpeak 5
 
-- Vor- und Nachname (realistisch, kein Fantasiename)
-- Woher kommt er? Was will er in Los Santos?
-- Ruhig, impulsiv, hilfsbereit, misstrauisch?
+Die genaue Einrichtung erfolgt später im Einreiseprozess.
 
-Das Einreisegespräch fragt genau danach.
+---
+
+## 🧍 Dein Charakter
+
+Du brauchst keinen fertigen Lebenslauf, aber eine grobe Vorstellung deiner Identität ist wichtig.
+
+Überlege dir:
+
+- Vor- und Nachname (realistisch, keine Fantasienamen)
+- Herkunft und Hintergrund
+- Persönlichkeit (z. B. ruhig, impulsiv, misstrauisch, hilfsbereit)
+- Motivation für dein Leben in Los Santos
+
+Diese Grundlagen werden im Einreisegespräch aufgegriffen.
+
+---
+
+## 🎭 Wichtig für den Einstieg
 
 :::info
-Kein Mikrofon, kein Beitritt. GoldenState ist Roleplay  du musst mit anderen sprechen können.
+Ein funktionierendes Mikrofon ist verpflichtend.
+
+GoldenState basiert auf Voice-Roleplay, Kommunikation ist ein zentraler Teil des Spiels.
 :::

@@ -2,32 +2,58 @@
 title: Inventar
 ---
 
-# Inventar
+# 🎒 Inventar
 
-Drücke `F2` um dein Inventar zu öffnen.
+Dein Inventar ist dein mobiler Speicher für alles, was du in Los Santos bei dir trägst.
 
-## Aufbau
+Öffne es mit `F2`.
 
-Links: dein Inventar. Rechts: der Kontext — ein Kofferraum, eine Kiste, oder das Inventar eines anderen Spielers.
+---
 
-## Gegenstände benutzen
+## 🧭 Aufbau des Inventars
 
-Rechtsklick auf einen Gegenstand öffnet das Aktionsmenü:
+Das Inventar ist in zwei Bereiche unterteilt:
 
-| Aktion | Effekt |
-|---|---|
-| Benutzen | Aktiviert den Gegenstand |
-| Geben | Übergibt an Spieler in der Nähe |
-| Ablegen | Legt auf den Boden |
+- 📦 **Links:** Dein persönliches Inventar (alles, was du bei dir trägst)
+- 🔄 **Rechts:** Kontext-Objekte wie Kisten, Kofferraum oder Inventare anderer Spieler
 
-## Gewichtslimit
+Je nach Situation verändert sich der rechte Bereich dynamisch.
 
-Jeder Charakter trägt maximal 30 kg. Der Balken unten im Inventar zeigt den aktuellen Stand. Zu schwer = kannst nichtsmehr aufnehmen
+---
 
-## Kofferraum
+## 🧰 Gegenstände verwenden
 
-Steh neben deinem Auto und drücke `F2`. Der Kofferraum öffnet sich auf der rechten Seite. Drag & Drop zwischen beiden.
+Jeder Gegenstand kann über das Kontextmenü (Rechtsklick) genutzt werden.
+
+| Aktion | Beschreibung |
+|--------|--------------|
+| 🟢 Benutzen | Aktiviert oder konsumiert den Gegenstand |
+| 🤝 Geben | Übergibt den Gegenstand an einen Spieler in der Nähe |
+| 📍 Ablegen | Legt den Gegenstand sichtbar auf den Boden |
+
+---
+
+## ⚖️ Gewichtssystem
+
+Jeder Charakter hat ein maximales Tragegewicht von **30 kg**.
+
+- Der Balken im Inventar zeigt deine aktuelle Belastung
+- Bei Übergewicht kannst du keine neuen Items aufnehmen
+
+Effizientes Packen ist kein Luxus, sondern notwendig.
+
+---
+
+## 🚗 Kofferraum-System
+
+Stelle dich neben dein Fahrzeug und öffne `F2`.
+
+Der Kofferraum erscheint als zusätzliches Inventar auf der rechten Seite und funktioniert per Drag & Drop.
+
+---
 
 :::warning
-Der Kofferraum ist nicht privat. Wer Zugang zum Auto hat, kann rein.
+Der Kofferraum ist kein geschützter Speicher.
+
+Jeder Spieler mit Zugriff auf das Fahrzeug kann auf den Inhalt zugreifen.
 :::

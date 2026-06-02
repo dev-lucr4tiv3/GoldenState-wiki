@@ -2,31 +2,63 @@
 title: Erste Schritte in Los Santos
 ---
 
-# Erste Schritte in Los Santos
+# 🌆 Erste Schritte in Los Santos
 
-Du bist drin. Was jetzt?
+Du bist angekommen.
 
-## Die ersten 30 Minuten
+Ab hier beginnt dein Leben in **Los Santos**, ohne Anleitung, ohne Wiederholung, aber mit klaren ersten Zielen, damit du nicht planlos durch die Stadt stolperst.
 
-Mach diese vier Dinge, in dieser Reihenfolge:
+---
 
-1. **Führerschein**  DVLA-Büro (Kartenmarkierung: Ausweis-Symbol). Theorie + kurze Fahrprüfung. Kostet ~$500.
-2. **Bankkonto**  Bank in der Innenstadt. Kostenlos. Überweise dein Startgeld sofort.
-3. **Handy**  `F1`. Wenn keins im Inventar, kauf eines im Electronics-Shop.
-4. **Job**  Arbeitsamt (Aktentaschen-Symbol). Taxifahrer oder Trucker als Einstieg.
+## ⏱️ Deine ersten 30 Minuten
 
-## Wichtige Tasten
+Die Stadt ist neu, groß und erstmal chaotisch. Diese Schritte helfen dir, dich schnell zu stabilisieren und handlungsfähig zu werden.
 
-| `E` | Interagieren |
-|---|---|
-| `F` | Fahrzeug einsteigen |
-| `F1` | Handy |
-| `F2` | Inventar |
-| `P` | Karte |
-| `Alt` | Kontextmenü (ox_target) |
+### 1. 🪪 Führerschein
+Gehe zum **DVLA-Büro** (Kartenmarkierung: Ausweis-Symbol).
 
-## Verhalte dich wie dein Charakter
+- Theorieprüfung
+- Kurze Fahrprüfung
+- Kosten: ca. $500
 
-Du bist nicht du  du bist dein Charakter. Sprich in der ersten Person, reagiere auf die Umgebung, stelle dich vor wenn du jemanden triffst.
+Ohne Führerschein wird jede Fahrt schnell zu einem teuren Problem.
 
-Wenn etwas nicht klappt oder du nicht weiterkommst: `F5` für ein Admin-Ticket.
+---
+
+### 2. 🏦 Bankkonto
+Besuche die **Bank in der Innenstadt**.
+
+- Konto erstellen (kostenlos)
+- Startgeld einzahlen oder verwalten
+- Zugriff auf dein Geldsystem in der Stadt
+
+---
+
+### 3. 📱 Handy einrichten
+Dein Handy ist dein wichtigstes Kommunikationsmittel.
+
+- Öffne es mit `F1`
+- Falls nicht vorhanden: Kauf im Electronics-Shop
+
+Ohne Handy bist du praktisch nicht erreichbar und in dieser Stadt ist das keine gute Idee.
+
+---
+
+### 4. 💼 Erster Job
+Geh zum **Arbeitsamt** (Aktentaschen-Symbol).
+
+- Einstieg: Suche dir einen Job aus dem Arbeitsamt aus.
+- Erste Einnahmen
+- Erste RP-Interaktionen im Arbeitsalltag
+
+---
+
+## 🎭 Dein Charakter ist nicht du
+
+Du spielst keine Version von dir selbst.
+
+- Sprich in der **Ich-Perspektive deines Charakters**
+- Reagiere auf deine Umgebung
+- Baue dir eine eigene Identität in der Stadt auf
+
+Los Santos funktioniert nur, wenn du dich auch so verhältst, als wärst du wirklich dort.

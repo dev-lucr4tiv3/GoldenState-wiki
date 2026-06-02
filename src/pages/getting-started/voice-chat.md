@@ -2,35 +2,88 @@
 title: Voice Chat (YaCa)
 ---
 
-# Voice Chat (YaCa)
+# 🎙️ Voice Chat (YaCa)
 
-GoldenState nutzt YaCa für Proximity-Voice. Personen in der Nähe hören sich laut, weiter weg leiser. Mikrofon ist Pflicht.
+GoldenState nutzt **YaCa Proximity Voice** für die Sprachkommunikation im Roleplay.
 
-## Setup in 3 Schritten
+Das bedeutet:
+- Nähe = laut
+- Entfernung = leiser
+- keine Funkmagie, sondern physikalisch nachvollziehbarer Voice
 
-**1. TeamSpeak 3 installieren**
-Von [teamspeak.com](https://www.teamspeak.com/de/downloads/) — **Version 3**, nicht 5.
+Ein funktionierendes Mikrofon ist verpflichtend.
 
-**2. YaCa Plugin installieren**
-Von [yaca.designerschnee.de](https://yaca.designerschnee.de). TeamSpeak 3 erst schließen, dann Plugin installieren, dann TS3 neu starten.
+---
 
-**3. Verbinden**
-TS3 Adresse: `golden-state.teamspeak`
+## 🧰 Einrichtung
 
-Sobald du in Los Santos einloggst, erkennt YaCa die Verbindung automatisch und leitet dich in den richtigen Kanal.
+Die Einrichtung besteht aus drei einfachen Schritten.
+
+---
+
+### 1. TeamSpeak 3 installieren
+Lade TeamSpeak 3 hier herunter:
+
+https://www.teamspeak.com/de/downloads/
+
+⚠️ Wichtig: Es wird ausschließlich **TeamSpeak 3** verwendet, nicht Version 5.
+
+---
+
+### 2. YaCa Plugin installieren
+Das YaCa Plugin findest du hier:
+
+👉 *(Link folgt)*
+
+**Installation Reihenfolge:**
+- TeamSpeak 3 vollständig schließen
+- YaCa Plugin installieren
+- TeamSpeak 3 neu starten
+
+---
+
+### 3. Verbinden
+Verbinde dich mit folgendem Server:
+
+```
+GoldenState
+```
+
+Sobald du dich im Spiel befindest, erkennt YaCa automatisch deine Verbindung und bringt dich in den passenden Voice-Kanal.
+
+---
+
+## ⏸️ Wichtig im Alltag
+
+- TeamSpeak 3 muss während des Spielens geöffnet bleiben
+- Minimieren ist erlaubt
+- Schließen trennt deine Voice-Verbindung
+
+---
+
+## 🎮 Push-to-Talk
+
+Empfohlene Einstellungen:
+
+- `Caps Lock` oder
+- eine Maustaste (falls vorhanden)
+
+Einstellungspfad:
+**Einstellungen → Tastaturbelegung → FiveM → Push-to-Talk**
+
+---
+
+## 🛠️ Häufige Probleme
+
+| Problem | Ursache / Lösung |
+|--------|------------------|
+| Ich höre niemanden | TeamSpeak läuft nicht oder YaCa fehlt |
+| YaCa erscheint nicht | TS3 war beim Installieren nicht geschlossen |
+| Mikrofon funktioniert nicht | Aufnahmegerät in TS3 falsch konfiguriert |
+| Keine Verbindung | Serveradresse prüfen |
+
+---
 
 :::warning
-TS3 muss die ganze Zeit offen laufen. Minimieren ist okay.
+Ohne funktionierendes Voice-System ist kein aktives Roleplay möglich.
 :::
-
-## Push-to-Talk
-
-Extras > Optionen > Aufnahme > Tastendruck. Empfohlen: `Caps Lock` oder eine Mausentaste.
-
-## Häufige Probleme
-
-| Problem | Lösung |
-|---|---|
-| Ich höre niemanden | TS3 läuft nicht oder YaCa-Plugin fehlt |
-| YaCa nicht in Plugins | TS3 beim Installieren geschlossen? Nochmal versuchen |
-| Mikrofon stumm | Extras > Optionen > Aufnahme prüfen |
