@@ -31,7 +31,7 @@ const year = new Date().getFullYear()
       </div>
 
       <div class="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs text-zinc-500 sm:flex-row">
-        <p>© {{ year }} GoldenState. Kein offizielles Rockstar-Games-Produkt. <a href="https://golden-state.tech/impressum" class="underline hover:text-gold-100 ml-2">Impressum</a></p>
+        <p>© {{ year }} GoldenState. Kein offizielles Rockstar-Games-Produkt. <a href="https://gstate.tech/impressum" class="underline hover:text-gold-100 ml-2">Impressum</a></p>
         <p>Made with <span style="color:gold;font-size:1.1em">💛</span> for the community by <span class="text-gold-300 font-semibold">goldenstate</span>.</p>
       </div>
     </div>
