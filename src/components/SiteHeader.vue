@@ -56,7 +56,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
       <!-- Right actions -->
       <div class="flex items-center gap-3">
         <a
-          href="https://golden-state.tech"
+          href="https://gstate.tech"
           class="btn-ghost hidden px-4 py-2 text-xs sm:inline-flex"
         >
           Zur Website
@@ -153,7 +153,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
           </div>
 
           <a
-            href="https://golden-state.tech"
+            href="https://gstate.tech"
             class="btn-ghost justify-center text-sm"
             @click="menuOpen = false"
           >
