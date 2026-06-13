@@ -9,8 +9,8 @@ export const site = {
   isBeta: true,
 
   links: {
-    discord: 'https://discord.golden-state.tech',
-    wiki: 'https://wiki.golden-state.tech',
+    discord: 'https://discord.gstate.tech',
+    wiki: 'https://wiki.gstate.tech',
     // Mastodon ist noch nicht eingerichtet  sobald es steht, hier eintragen,
     // dann erscheinen Events/Changelog automatisch live.
     mastodon: '',
