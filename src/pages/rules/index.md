@@ -8,13 +8,11 @@ title: Regelwerk
 
 # Regelwerk
 
-GoldenState hat zwei Kategorien von Regeln: allgemeine Verhaltensregeln und Roleplay-spezifische Regeln.
+GoldenState besitzt ein einheitliches Regelwerk, das alle Verhaltens- und Roleplay-Regeln in einem System vereint.
 
-- [Allgemeine Regeln](/rules/general) — Verhalten, Sprache, Accounts
-- [Roleplay-Regeln](/rules/roleplay) — NPS, Metagaming, NLR und mehr
+Alle wichtigen Regeln findest du im Bereich:
+- [Offizieles Regelwerk](/rules/roleplay) — beinhaltet Verhalten, Kommunikation, NLR, Metagaming, FearRP und alle weiteren RP-bezogenen Systeme
 
 ## Kurzversion
 
-Behandle andere mit Respekt. Spiel deinen Charakter konsequent. Verlass die Szene nicht vorzeitig.
-
-Regelbrüche meldest du mit `F5` oder über das Discord-Ticketsystem. Nicht selbst bestrafen.
+Behandle andere Spieler mit Respekt. Spiele deinen Charakter konsequent und realistisch aus. Verlasse keine laufenden RP-Situationen ohne nachvollziehbaren Grund.
