@@ -1,8 +1,4 @@
----
-title: Offizielles Regelwerk
----
-
-# Offizielles Regelwerk
+# GoldenState - Offizielles Regelwerk
 
 **Version 1.0 · Stand: Juni 2026**
 
@@ -41,7 +37,7 @@ GoldenState ist ein öffentlicher FiveM Roleplay-Server ohne Whitelist. Du bist 
 
 Die Serverleitung steht in allen Entscheidungen über dem Regelwerk. Anweisungen von Teammitgliedern sind Folge zu leisten. Das Anlügen von Teammitgliedern in einer aktiven Support- oder Sanktionssituation gilt als schwerwiegender Verstoß und wird entsprechend geahndet.
 
-:::warn
+:::warning
 Kein Spieler steht über dem Regelwerk - auch Teammitglieder nicht. Verstöße durch Teammitglieder können direkt bei der Serverleitung gemeldet werden.
 :::
 
@@ -79,7 +75,7 @@ Ein respektvoller Umgang ist gegenüber allen Spielern, Teammitgliedern und der 
 
 ### 2.2 Diskriminierung
 
-:::danger
+:::warning
 Rassistische, sexistische, homophobe oder anderweitig diskriminierende Aussagen sind strengstens verboten und führen in der Regel zum permanenten Ausschluss. Auch extrem schwarzer Humor, der auf Kosten von Personengruppen geht, fällt unter dieses Verbot.
 :::
 
@@ -102,7 +98,7 @@ Das bewusste Verbreiten von Falschinformationen über den Server oder das Team s
 
 ### 2.6 Fakeserver & Leakserver
 
-:::danger
+:::warning
 Wer auf Fakeservern (Server, die GoldenState imitieren) oder auf Leakservern aktiv ist, wird permanent vom Server ausgeschlossen.
 :::
 
@@ -131,7 +127,7 @@ Das gespielte Alter des Charakters muss mindestens **18 Jahre** betragen.
 
 Die Entwicklung eines Charakters muss nachvollziehbar und glaubwürdig verlaufen. Drastische Identitätswechsel ohne RP-Begründung sind nicht erlaubt.
 
-:::warn
+:::warning
 Beispiel: Ein seit Monaten aktiver Gangmitglied-Charakter kann nicht ohne jegliche Vorgeschichte und Begründung plötzlich zum LSPD wechseln. Solche Wechsel müssen dem Team gegenüber begründet werden können.
 :::
 
@@ -139,7 +135,7 @@ Beispiel: Ein seit Monaten aktiver Gangmitglied-Charakter kann nicht ohne jeglic
 
 Jeder Spieler kann auf Antrag bei der Serverleitung einen zweiten Charakter freischalten lassen. Die Genehmigung erfolgt individuell.
 
-:::danger
+:::warning
 Es ist strengstens verboten, zwischen eigenen Charakteren Geld, Fahrzeuge, Gegenstände oder Informationen zu transferieren.
 :::
 
@@ -151,7 +147,7 @@ Ein Spieler kann seinen Charakter aus der Welt herausnehmen (Ausreise / Charakte
 - Keine laufenden Fahndungen oder Haftstrafen
 - Keine ausstehenden Termine oder laufenden RP-Storybögen
 
-:::warn
+:::warning
 Eine Ausreise ist kein Mittel, um sich RP-Konsequenzen zu entziehen. Wer kurz vor einer Verhaftung, einem Fraktionskrieg oder einer anderen RP-Konsequenz seinen Charakter löscht, handelt gegen den Geist des Regelwerks und kann sanktioniert werden.
 :::
 
@@ -183,7 +179,7 @@ Das Ziel auf GoldenState ist ein gemeinsames, qualitativ hochwertiges Erlebnis. 
 
 Jede Handlung des Charakters muss realistisch und nachvollziehbar sein. Das Handeln muss dem jeweiligen Umstand entsprechen.
 
-:::warn
+:::warning
 Beispiel: Bei einer normalen Verkehrskontrolle ohne Vorgeschichte ist aggressives Verhalten oder das sofortige Ziehen einer Waffe absolut unrealistisch und wird als Fail-RP gewertet.
 :::
 
@@ -260,7 +256,7 @@ Informationen, die außerhalb des Rollenspiels erlangt wurden (z.B. durch Twitch
 
 Handlungen, die dem Gegenüber keinerlei Reaktionsmöglichkeit lassen, fallen unter Power-RP und sind verboten. Jeder Spieler muss die Möglichkeit haben, auf eine Situation zu reagieren.
 
-:::warn
+:::warning
 Das Töten eines Spielers mit dem Ziel, dass dieser die Situation vergisst (erzwungener Gedächtnisverlust), ist ausdrücklich verboten. Ausnahme: Ein offiziell vereinbarter Blood-Out ist von dieser Regel ausgenommen.
 :::
 
@@ -271,19 +267,19 @@ Das Töten eines Spielers mit dem Ziel, dass dieser die Situation vergisst (erzw
 
 ### 5.6 Bugging & Exploiting
 
-:::danger
+:::warning
 Das absichtliche Ausnutzen von Spielfehlern, Duplikationsbugs oder anderweitigen Exploits zum eigenen Vorteil führt zum sofortigen permanenten Ausschluss.
 :::
 
 ### 5.7 Cheating & externe Programme
 
-:::danger
+:::warning
 Das Verwenden von Cheats, Hacks, Trainern oder sonstiger nicht genehmigter externer Software führt zum sofortigen permanenten Ausschluss ohne Möglichkeit einer Entbannung.
 :::
 
 ### 5.8 Rape-RP & sexuelle Belästigung
 
-:::danger
+:::warning
 Jede Form von sexuell belästigendem oder erzwungenem RP ist strengstens verboten und führt zum sofortigen permanenten Ausschluss. Betroffene Spieler dürfen eine solche Situation nicht ausspielen, sondern müssen sich umgehend beim Support melden.
 :::
 
@@ -297,7 +293,7 @@ Das absichtliche Herbeiführen des eigenen Charaktertodes, um einer RP-Konsequen
 
 Als Gambo wird ein Verhalten bezeichnet, bei dem Spieler bei geringsten Anlässen zu Schusswaffen greifen, aktiv Konflikte provozieren oder unverhältnismäßig viele Tötungen ohne RP-Hintergrund anhäufen.
 
-:::warn
+:::warning
 Wer dauerhaft als Gambo-Spieler auffällt, wird temporär oder permanent vom kriminellen Roleplay ausgeschlossen - unabhängig davon, ob einzelne Aktionen technisch regelkonform waren.
 :::
 
@@ -371,7 +367,7 @@ Voraussetzungen für eine Geiselnahme:
 - Der Ort muss realistisch und abgelegen sein (kein belebter Supermarkt oder Hauptplatz)
 - Die Verhandlung mit der Polizei muss ernsthaft ausgespielt werden
 
-:::warn
+:::warning
 Wer eine Geisel nimmt, ist in der Pflicht, dieser Person ein qualitativ hochwertiges RP-Erlebnis zu bieten. Wer das nicht tut, muss mit einem Ban und einer temporären Sperre vom kriminellen RP rechnen.
 :::
 
@@ -421,7 +417,7 @@ Inaktive Fraktionen werden nach **30 Tagen ohne Aktivität** durch die Serverlei
 
 Staatsfraktionen (Polizei, Sanitäter, Feuerwehr) erfüllen wichtige Rollen für das gesamte Serversystem. Ihr RP ist ernst zu nehmen und zu respektieren.
 
-:::warn
+:::warning
 Unnötiges Provozieren, dauerhaftes Nerven oder bewusstes Torpedieren des Polizei-RPs ohne RP-Hintergrund ist verboten.
 :::
 
@@ -437,7 +433,7 @@ Kein Spieler darf sich als Polizist, Sanitäter oder Feuerwehrmann ausgeben, wen
 
 Korruption innerhalb staatlicher Fraktionen ist als RP-Element grundsätzlich zulässig, muss aber vorab mit der Serverleitung abgestimmt sein.
 
-:::danger
+:::warning
 Unkontrollierte oder nicht genehmigte Korruption zerstört das Serversystem und ist ohne ausdrückliche Genehmigung verboten.
 :::
 
@@ -461,7 +457,7 @@ In Safezones ist jegliche Form von körperlicher Gewalt, Bedrohung oder aktiver 
 | Restaurants, Bars, Clubs | Innenbereich (sofern kein aktives RP-Szenario läuft) |
 | Spawn-Bereich / Flughafen-Neulingsspawn | Gesamter Bereich |
 
-:::danger
+:::warning
 Wer in einer Safezone Gewalt ausübt oder aktiv provoziert, erhält einen sofortigen Ban von mindestens 1 Tag.
 :::
 
@@ -485,7 +481,7 @@ In Todeszonen darf ohne vorherige Schussankündigung das Feuer eröffnet werden,
 
 Spielinterne Kommunikation (Sprache, Mobiltelefon, Funk) ist immer IC. OOC-Kommunikation findet ausschließlich auf dem Discord statt oder wird durch ein klar erkennbares OOC-Zeichen eingeleitet (`/ooc`).
 
-:::warn
+:::warning
 OOC-Kommunikation im Spiel ist auf ein absolutes Minimum zu reduzieren und nur in technischen Notfällen zulässig (z.B. Verbindungsabbruch ankündigen).
 :::
 
@@ -497,7 +493,7 @@ Der Notruf (911) ist ausschließlich für In-Game-Notrufe reserviert. Missbrauch
 
 Regelverstöße werden ausschließlich über den Discord-Support gemeldet.
 
-:::danger
+:::warning
 Das Androhen eines Reports im Spiel („Ich melde dich jetzt!") ist verboten und wird selbst als Regelverstoß geahndet.
 :::
 
@@ -513,7 +509,7 @@ Im Support-Bereich ist sachliches und ruhiges Verhalten Pflicht. Beleidigungen, 
 
 Wer Inhalte aus GoldenState live streamt oder als Video veröffentlicht, benötigt eine Streaming-Erlaubnis, die beim Team beantragt werden muss.
 
-:::warn
+:::warning
 Nicht genehmigte Veröffentlichungen führen zur Aufforderung zur Löschung. Bei Verweigerung kann der Server-Zugang entzogen werden.
 :::
 
@@ -529,7 +525,7 @@ Content Creator tragen eine besondere Verantwortung für das Bild, das sie von G
 
 Rein visuelle Mods (z.B. Wetter- oder Textur-Mods) können auf Anfrage genehmigt werden.
 
-:::danger
+:::warning
 Modifikationen, die das Gameplay anderer Spieler beeinflussen oder technische Vorteile verschaffen, sind ohne Ausnahme verboten und führen zum permanenten Ausschluss.
 :::
 
@@ -555,7 +551,7 @@ Einträge verfallen nach **12 Monaten**, sofern in diesem Zeitraum kein neuer Ei
 
 ### 14.2 Permanenter Ausschluss - kein Entbannungsrecht
 
-:::danger
+:::warning
 Folgende Verstöße führen zum sofortigen permanenten Ausschluss ohne Möglichkeit einer Entbannung:
 
 - Cheating / Hacking
@@ -581,7 +577,7 @@ Folgende Verstöße führen zu einem permanenten Ban, gegen den nach **90 Tagen*
 
 Entbannungsanträge werden schriftlich auf dem Discord eingereicht. Der Antrag muss eine ehrliche und einsichtige Auseinandersetzung mit dem Regelverstoß enthalten.
 
-:::warn
+:::warning
 Freche, uneinsichtige oder unvollständige Anträge werden ohne weitere Begründung abgelehnt. Die Wartezeit beginnt in diesem Fall nicht neu.
 :::
 
